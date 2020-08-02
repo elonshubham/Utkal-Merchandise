@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_red"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        android:title="About us"/>
+    <item
+        android:id="@+id/menu_green"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="Contact Us"/>
+
+    <item android:title="Cart"
+        android:icon="@drawable/cart_icon_foreground"
+        android:orderInCategory="1"
+        app:showAsAction="always"/>
+
+    <item android:title="Account"
+          android:icon="@drawable/account_icon_foreground"
+
+        app:showAsAction="always"/>
+
+</menu>
